@@ -1,0 +1,23 @@
+Write a program to find greatest number among 3 numbers by using C++.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x,y,z;
+	cout <<"Enter three numbers: ";
+	cin >>x>>y>>z;
+	if(x>y && x>z)
+	{
+		cout <<"The greatest number is: "<<x;
+	}
+	else if(y>x && y>z)
+	{
+		cout <<"The greatest number is: "<<y;
+	}
+	else
+	{
+		cout <<"The greatest number is: "<<z;
+	}
+	return 0;
+}

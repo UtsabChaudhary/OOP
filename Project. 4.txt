@@ -1,0 +1,25 @@
+WAP to find Greatest number between 2 numbers by using Function with arguments and with written value.
+
+#include<iostream>
+using namespace std;
+int great(int a,int b);
+int main()
+{
+	int x,y,z;
+	cout <<"Enter two numbers: ";
+	cin >>x>>y;
+	z=great(x,y);
+	cout <<"The greatest number is: "<<z;
+	return 0;
+}
+int great(int a,int b)
+{
+if(a>b)
+{
+	return a;
+}
+else
+{
+	return b;
+}
+}

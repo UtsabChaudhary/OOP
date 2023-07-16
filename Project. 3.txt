@@ -1,0 +1,22 @@
+WAP to find greatest number among n numbers by using C++.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n,i,g,m;
+	cout <<"Enter value of n: ";
+	cin >>n;
+	g=n;
+	for(i=1;i<=n;i++)
+	{
+		cout <<"Enter the value of m: ";
+		cin >>m;
+		if(m>g)
+		{
+			g=m;
+   }
+	}
+	cout <<"The greatest number is: "<<g;
+	return 0;
+}
